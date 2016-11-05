@@ -8,6 +8,8 @@ set nofoldenable
 set laststatus=2
 set number
 set encoding=utf-8
+set hlsearch
+highlight Search ctermbg=blue
 
 set statusline =
 set statusline +=\ %<%F\     " full path
