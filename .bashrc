@@ -4,8 +4,8 @@ SHELL=/bin/bash
 PATH=$HOME/bin:/usr/local/bin:$PATH
 PATH=$PATH:~/install/gcc-arm-none-eabi-5_4-2016q3/bin/
 
-source ~/.git-prompt.sh
-source ~/.git-completion.bash
+source ~/bin/.git-prompt.sh
+source ~/bin/.git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 PS1="\u:\w$(__git_ps1 " (%s)") > "
 PROMPT_COMMAND='__git_ps1 "\u:\w" " > "'
