@@ -3,7 +3,7 @@ SHELL=/bin/bash
 
 PATH=$HOME/bin:/usr/local/bin:$PATH
 PATH=~/install/gcc-arm-none-eabi-5_4-2016q3/bin/:$PATH
-PATH=~/install/nrfjprog/nrfjprog:$PATH
+PATH=~/install/nrfjprog/:$PATH
 #JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home
 #ES_HOME=~/code/elasticsearch/elasticsearch-1.4.0
 #PATH=$ES_HOME/bin:$JAVA_HOME/bin:$PATH
